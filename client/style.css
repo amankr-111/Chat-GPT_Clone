@@ -14,7 +14,7 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background: #bbd1de;
 
   display: flex;
   flex-direction: column;
@@ -24,8 +24,10 @@ body {
 
 #chat_container {
   flex: 1;
-  width: 100%;
+  width: 80%;
   height: 100%;
+  background: #c7cae8;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   overflow-y: scroll;
 
   display: flex;
@@ -50,7 +52,7 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: #8e92d1;
 }
 
 .chat {
@@ -89,7 +91,7 @@ body {
 .message {
   flex: 1;
 
-  color: #dcdcdc;
+  color: #000000;
   font-size: 20px;
 
   max-width: 100%;
